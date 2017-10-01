@@ -4,28 +4,44 @@
 <title>
 Exceptional Realty Group - Luxury Home - About
 </title>
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.0/normalize.min.css" />
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.7.1/modernizr.min.js"></script>
 </head>
 <body>
+	<div id="social">
+		<a href="#"> Twitter </a>
+		<a href="#"> Facebook </a>
+		<a href="#"> Google</a>
+	</div>
 <header>
- <h1>Exceptional</h1>
- <h2>Realty Group</h2>
- <nav>
- <a href="index.html">About</a>
- <a href="new-properties.html">Properties</a>
- <a href="real-estate-listings.html">Listings</a>
- <a href="market-report.html">Market report</a>
- <a href="contact.html">Contact</a>
- <a href="http://hud.gov">H.U.D.</a>
- </nav>
+ <div class="wrapper">
+	<div id="logo">
+     <h1>Exceptional</h1>
+     <h2>Realty Group</h2>
+    </div>
+  <nav>
+  <div class="details">	
+  <a href="index.html">About</a>
+  <a href="new-properties.html">Properties</a>
+  <a href="real-estate-listings.html">Listings</a>
+  <a href="market-report.html">Market report</a>
+  <a href="contact.html">Contact</a>
+  <a href="http://hud.gov">H.U.D.</a>
+  </div>
+  </nav>
+  </div> 
 </header>
-<section id="featured-property">
-<figure>
- <img src="images/intro-pic.jpg" alt="no image" title="a beautiful room">
- <figcaption> suresh sharma nagar , bareilly - 243006
-</figure>
- <p>Chances are, when you think about investing in real estate the first thing that comes to mind is your home. For many people, their home is the single largest investment they will ever make. But have you ever stopped to consider that once you purchase a home it becomes part of your overall portfolio of investments? In fact, it's one of the most important parts of your portfolio because it serves a dual role as not only an investment but also a centerpiece to your daily life.</p>
-</section>
-<section id="promotional">
+
+<div class="wrapper clearfix">
+ <section id="featured-property" class="col-3 first">
+  <figure>
+   <img src="images/intro-pic.jpg" width="400" height="260" alt="no image" title="a beautiful room">
+   <figcaption> suresh sharma nagar , bareilly - 243006
+  </figure>
+  <p>Chances are, when you think about investing in real estate the first thing that comes to mind is your home. For many people, their home is the single largest investment they will ever make. But have you ever stopped to consider that once you purchase a home it becomes part of your overall portfolio of investments? In fact, it's one of the most important parts of your portfolio because it serves a dual role as not only an investment but also a centerpiece to your daily life.</p>
+ </section>
+<section id="promotional" class="col-2 first">
 <figure>
  <video width="320" height="240" controls>
    <source src="videos/Real estate short bio example.mp4" type="video/mp4"
@@ -35,7 +51,49 @@ Exceptional Realty Group - Luxury Home - About
 </figure>
 </section>
 
+<section id="news" class="col-1">
+	<h3>Company News</h3>
+	<p>Chances are, when you think about investing in real estate the first thing that comes to mind is your home. For many people, their home is the single largest investment they will ever make. But have you ever stopped to consider that once you purchase a home it becomes part of your overall portfolio of investments? In fact, it's one of the most important parts of your portfolio because it serves a dual role as not only an investment but also a centerpiece to your daily</p>
+</section>
+</div>
+
+<section id="details">
+  <div class="wrapper clearfix">
+	<div class="col-1 first">
+		<h3> Contact</h3>
+		<p>
+			email: <a href="mailto:info@exceptionalrealty.com">
+			info@exceptionalrealty.com</a> <br>
+			phone:9450388819
+		</p>
+		<h3>Correspondence</h3>
+		<address>
+			Exceptional Reality<br>
+			Suresh sharma nagar
+			bypass road bareilly
+		</address>
+	</div>
+	<div class="col-1">
+	<h3>Links</h3>
+	 <p>
+		<a href="#" target="_blank">Home Restoration</a><br>
+		<a href="#" target="_blank">Affordable mortrages</a><br>
+		<a href="#" target="_blank">Professional Moving Crew</a><br>
+	 </p>
+    </div>
+	<div class="col-1">
+		<h3>Follow</h3>
+		<p>
+		  <a href="#" target="_blank">Youtube</a><br>
+		  <a href="#" target="_blank">Twitter</a><br>
+		  <a href="#" target="_blank">Facebook</a><br>
+	    </p>
+	</div>
+  </div>
+</section>
+
 <footer>
 	&copy; 2017 Exceptional Realty . All Rights Reserved.
+</footer>
 </body>
 </html>
